@@ -1,0 +1,5 @@
+Just recently, I have written an extensive guide about testing in React. I want to recap here the different solutions which can be used for React testing. If you want to go in depth by setting these solutions up yourself and using them, feel free to checkout the mentioned guide.
+
+In order to accomplish a sophisticated testing toolset, you might have to address the following test types for your application.
+
+Unit Test: Tests a function or a component in isolation. Mocha: Mocha is a popular test runner for a JavaScript application. It is often used in React applications, whereas an alternative such as Karma, is often used in Angular applications. Test runners make it possible to execute your tests from the command line. In addition, they make sure that all the configuration for your tests is setup properly and all test files are reached in your project. Last but not least, they give your tests structure by offering functions for your test. A describe block is used to describe a test suite (e.g. for a component or function) and a it block is used for the test itself. The output of the test suites and tests can be seen on the command line
